@@ -22,7 +22,7 @@ if (eresBellisimo === "si") {
 
 
 
-const numero = 4
+const numero = 3
 
 if (numero % 2 === 0 ) {
  console.log("Es divisible entre 2")
@@ -38,7 +38,7 @@ if (numero % 2 === 0 ) {
 
 
 
-const parOnon = 6
+const parOnon = 5
 
 if (parOnon%2 === 0) {
     console.log("Es un numero par")
@@ -160,25 +160,6 @@ if (topping === "oreo") {
 //("------Ejercicio 10------")
 
 
-
-/* const precios = {
-    "course": 4999,
-    "carrera": 3999,
-    "master": 2999
-}
-
-const becas = {
-    "facebook": 0.20,
-    "google": 0.15,
-    "jesua": 0.50
-}
-
-const duracion = {
-    "course": 2,
-    "carrera": 6,
-    "master": 12
-}
- */
 const nivel = 1 //Number(prompt("Elije un nivel \n 1. Course $4999 \n 2. Carrera $3999 \n 3. Master $2999 "))
 
 const beca = 4 //prompt("Tiene alguna de estas becas? \n 1. Facebook 20% \n 2. Google 15% \n 3. Jesua 50% \n 4. No tengo beca ")
@@ -251,27 +232,6 @@ console.log("El costo total del programa es " + costoTotal)
 
 
 //("-----Ejercicio 11-----")
-
-
-
-
-/* 11. Realizar un programa que ayude a calcular el total a pagar de acuerdo a la distancia recorrida por un vehículo con cargo extra por los litros consumidos, 
-tomando en consideración lo siguiente:
-Si el vehículo es “coche”, el precio kilometro ha de ser 0.20, si es “moto” ha de ser 0.10 y si es “autobús” 0.5.
-Si los litros consumidos están entre 0 y 100 se ha de añadir 5 al costo total, si es mayor la cantidad de litros consumidos se ha de añadir 10 al total. Considere qué:
-total a pagar = (precio kilometro x kms recorridos) + extra por litros consumidos. */
-
-/* const litros  10
-
- kilometros por litro = coche 2  moto 1 autobus 5
-
-const vehiculos = {
-    "coche": 0.20,
-    "moto": 0.10,
-    "autobus":0.5
-}
- */
-
 
 const transporte = 2//Number(prompt("Que vehiculo desearia usar? \n 1. Coche $0.20/km \n 2. Moto $0.10/km \n 3. Autobus 0.5/km"))
 const distancia = 100//Number(prompt("A que distania en km esta su destino?"))
